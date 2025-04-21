@@ -1,0 +1,23 @@
+{	
+  "BICT 1101": {
+    "title": "End User Computing",
+    "description": "This course introduces students to basic computer applications including word processing, spreadsheets, and presentations.",
+    "topics": [
+      "Introduction to Computers",
+      "Understanding Operating Systems",
+      "File Management",
+      "Microsoft Word Basics",
+      "Microsoft Excel Basics",
+      "Microsoft PowerPoint Basics",
+      "Email and Internet Usage",
+      "Computer Security Basics"
+    ],
+    "assessment": {
+      "assignments": "30%",
+      "midterm": "20%",
+      "final_exam": "50%"
+    }
+  }
+}
+
+

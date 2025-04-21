@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mzuni ICT Curriculum Framework</title>
+  <link rel="stylesheet" href="curriculum.css">
+</head>
+<body>
+  <header>
+    
+    <h1> BICT Curriculum Framework</h1>
+    
+  </header>
+  
+  <section id="curriculum">
+    
+    
+    <div id="level-buttons">
+        <h2>Choose :</h2>
+      <button class="level-btn" onclick="showSemesterOptions(1)">LEVEL ONE</button>
+      <button class="level-btn" onclick="showSemesterOptions(2)">LEVEL TWO</button>
+      <button class="level-btn" onclick="showSemesterOptions(3)">LEVEL THREE</button>
+      <button class="level-btn" onclick="showSemesterOptions(4)">LEVEL FOUR</button>
+    </div>
+    
+    <div>
+    <div id="semester-options" style="display: none;">
+        <h2>Choose :</h2>
+      <button id="sem1-btn">Semester 1</button>
+      <button id="sem2-btn">Semester 2</button>
+      <button onclick="goBackToLevel()" id="back">Back</button>
+    </div>
+    
+
+    <div id="curriculum-content"></div>
+  </section>
+
+
+   <!--! <p>© 2025 Mzuni ICT Curriculum Framework | All rights reserved</p>-->
+
+
+  <script src="curriculum.js"></script>
+</body>
+</html>

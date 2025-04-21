@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Outline Viewer</title>
+    <link rel="stylesheet" href="enduseroutline.css">
+</head>
+<body>
+    <header>
+        <h1>Mzuni ICT Curriculum</h1>
+    </header>
+
+    <section id="curriculum">
+        <div id="course-selection">
+            <h2>Select a Course</h2>
+            <select id="courseSelect">
+                <option value="" disabled selected>Select a course</option>
+                <option value="BICT 1101">End User Computing</option>
+            </select>
+            <button id="viewOutline">View Outline</button>
+        </div>
+
+        <div id="curriculum-content"></div>
+    </section>
+
+    <script src="enduseroutline.js"></script>
+</body>
+</html>

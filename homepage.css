@@ -1,0 +1,99 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/home-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header span {
+    color: #FFD700;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.header-icons{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+top: 20px;
+right: 20px;
+}
+
+/*profile*/
+.profile{
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.profile p{
+    margin: 5px 0;
+}
+.profile button{
+    background: #FFD700;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.feature h2 {
+    font-size: 26px;
+    color:green;
+}
+
+.feature p {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+}
